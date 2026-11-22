@@ -1,0 +1,192 @@
+/* Bizora palette — strictly web-related modern lavender aesthetic */
+:root {
+  --c-base: #F8F7FC;          /* App background color */
+  --c-surface: #FFFFFF;       /* Card surface */
+  --c-surface-soft: #FDEBFA;  /* Soft lavender surface */
+  --c-accent: #5A388C;        /* Primary purple */
+  --c-accent-2: #887CC7;      /* Interactive lavender */
+  --c-text: #241C38;          /* Primary text */
+  --c-lilac: #C9C2E3;         /* Misty lilac */
+  --c-neutral: #3A3A52;       /* Midnight slate */
+  --c-border: #E6E0F0;        /* Borders */
+  --c-line: #E6E0F0;          /* Lines and dividers */
+
+  /* Text variations */
+  --c-text-2: #5B5270;        /* Secondary readable text */
+  --c-text-3: #8C849E;        /* Subtle tertiary text */
+  --c-hover: rgba(90, 56, 140, 0.08); /* Soft primary purple hover */
+  --c-hover-soft: rgba(253, 235, 250, 0.85); /* Soft lavender hover */
+  --c-focus-ring: rgba(136, 124, 199, 0.4);
+
+  /* Status and micro-interaction colors — purely web palette */
+  --c-mint: #887CC7;          /* Interactive lavender success */
+  --c-mint-glow: rgba(136, 124, 199, 0.35);
+  --c-warning: #7E68C8;       /* Deep lavender */
+  --c-danger: #3A3A52;        /* Midnight slate */
+
+  --font: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius: 12px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+  
+  --shadow-sm: 0 1px 3px rgba(36, 28, 56, 0.05), 0 1px 2px rgba(36, 28, 56, 0.03);
+  --shadow: 0 4px 16px -2px rgba(36, 28, 56, 0.06), 0 2px 6px -1px rgba(36, 28, 56, 0.04);
+  --shadow-lg: 0 12px 32px -4px rgba(90, 56, 140, 0.12), 0 4px 12px -2px rgba(36, 28, 56, 0.05);
+  --shadow-glow: 0 0 20px rgba(136, 124, 199, 0.4);
+
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  --sidebar-w: 248px;
+  --sidebar-w-collapsed: 76px;
+  --topbar-h: 68px;
+
+  /* KPI Theme Tokens — Strictly web palette (Purple, Lavender, Lilac, Soft Lavender) */
+  --kpi-mint-bg: #F5ECFE;
+  --kpi-mint-border: #D8C5ED;
+  --kpi-mint-text: #5A388C;
+
+  --kpi-amber-bg: #FDEBFA;
+  --kpi-amber-border: #E6D0F2;
+  --kpi-amber-text: #5A388C;
+
+  --kpi-lilac-bg: #FFFFFF;
+  --kpi-lilac-border: #E6E0F0;
+  --kpi-lilac-text: #3A3A52;
+
+  --kpi-primary-bg: linear-gradient(135deg, #FDEBFA 0%, #F5ECFE 100%);
+  --kpi-primary-border: #D8C5ED;
+  --kpi-primary-shadow: 0 8px 24px -4px rgba(90, 56, 140, 0.12);
+
+  --kpi-deficit-bg: linear-gradient(135deg, #F5ECFE 0%, #FDEBFA 100%);
+  --kpi-deficit-border: #C9C2E3;
+}
+
+/* Dark Mode Palette — Purely obsidian and luminous purple/lavender */
+[data-theme="dark"],
+.dark {
+  --c-base: #110E1B;          /* Deep nocturnal obsidian background */
+  --c-surface: #1B162B;       /* Dark card surface */
+  --c-surface-soft: #27203D;  /* Rich dark violet lavender surface */
+  --c-accent: #9A7CF4;        /* Luminous primary purple */
+  --c-accent-2: #A99CE6;      /* Bright interactive lavender */
+  --c-text: #F5F3FB;          /* Crisp high-contrast light text */
+  --c-lilac: #C9C2E3;         /* Misty lilac */
+  --c-neutral: #8E87A5;       /* Slate lavender */
+  --c-border: #2D2545;        /* Subtle dark borders */
+  --c-line: #2D2545;          /* Dividers */
+
+  --c-text-2: #B3ABC7;        /* Secondary light text */
+  --c-text-3: #82789C;        /* Tertiary subtle text */
+  --c-hover: rgba(154, 124, 244, 0.15);
+  --c-hover-soft: rgba(39, 32, 61, 0.9);
+  --c-focus-ring: rgba(169, 156, 230, 0.5);
+
+  --c-mint: #A99CE6;
+  --c-mint-glow: rgba(169, 156, 230, 0.45);
+  --c-warning: #9A7CF4;
+  --c-danger: #8E87A5;
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.35);
+  --shadow: 0 4px 16px -2px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 12px 32px -4px rgba(0, 0, 0, 0.6);
+  --shadow-glow: 0 0 25px rgba(154, 124, 244, 0.5);
+
+  /* KPI Dark Mode Tokens — Pure obsidian and luminous purple/lavender */
+  --kpi-mint-bg: rgba(39, 32, 61, 0.8);
+  --kpi-mint-border: #483A6B;
+  --kpi-mint-text: #F5F3FB;
+
+  --kpi-amber-bg: rgba(31, 24, 50, 0.8);
+  --kpi-amber-border: #3D2F5A;
+  --kpi-amber-text: #A99CE6;
+
+  --kpi-lilac-bg: #1B162B;
+  --kpi-lilac-border: #2D2545;
+  --kpi-lilac-text: #B3ABC7;
+
+  --kpi-primary-bg: linear-gradient(135deg, #27203D 0%, #1B162B 100%);
+  --kpi-primary-border: #483A6B;
+  --kpi-primary-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.5);
+
+  --kpi-deficit-bg: linear-gradient(135deg, #2D2447 0%, #1B162B 100%);
+  --kpi-deficit-border: #52407A;
+}
+
+/* =========================================================================
+   BROKEN GLASS INTERFERENCE WORKSPACE TRANSITION
+   ========================================================================= */
+.broken-glass-overlay {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.broken-glass-overlay.is-active {
+  opacity: 1;
+  animation: glassScreenFlicker 0.75s ease forwards;
+}
+
+.broken-glass-overlay.is-dissolving {
+  opacity: 0;
+  transition: opacity 0.45s ease-out;
+}
+
+.glass-shockwave {
+  animation: shockwavePulse 0.4s cubic-bezier(0.1, 0.9, 0.2, 1) forwards;
+}
+
+@keyframes shockwavePulse {
+  0% {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.85;
+  }
+}
+
+.glass-interference-bands {
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent 0px,
+    transparent 4px,
+    rgba(154, 124, 244, 0.05) 5px,
+    rgba(201, 194, 227, 0.05) 7px
+  );
+  mix-blend-mode: overlay;
+  pointer-events: none;
+  animation: interferenceShift 0.35s steps(4) infinite;
+}
+
+@keyframes interferenceShift {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
+  100% { transform: translateY(3px); }
+}
+
+@keyframes glassScreenFlicker {
+  0% {
+    filter: brightness(1) contrast(1);
+  }
+  20% {
+    filter: brightness(1.35) contrast(1.25);
+  }
+  45% {
+    filter: brightness(0.9) contrast(1.1);
+  }
+  70% {
+    filter: brightness(1.15) contrast(1.05);
+  }
+  100% {
+    filter: brightness(1) contrast(1);
+  }
+}

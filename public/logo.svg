@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <defs>
+    <linearGradient id="bz-arc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5A3B8C"/>
+      <stop offset="1" stop-color="#2A1E4D"/>
+    </linearGradient>
+  </defs>
+  <path d="M150 22 A92 92 0 1 0 190 160 A80 80 0 1 1 150 22 Z" fill="url(#bz-arc)"/>
+  <path d="M146 34 A78 78 0 0 0 118 150" fill="none" stroke="#C9C2E3" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+  <path d="M70 92 L186 92 L180 108 L76 108 Z" fill="#5A3B8C"/>
+  <path d="M92 92 L104 92 L98 108 L86 108 Z M128 92 L140 92 L134 108 L122 108 Z M164 92 L176 92 L170 108 L158 108 Z" fill="#C9C2E3"/>
+  <path d="M76 108 A8 8 0 0 0 92 108 A8 8 0 0 0 108 108 A8 8 0 0 0 124 108 A8 8 0 0 0 140 108 A8 8 0 0 0 156 108 A8 8 0 0 0 172 108 A8 8 0 0 0 186 108 L180 118 L76 118 Z" fill="#2A1E4D"/>
+  <rect x="78" y="62" width="92" height="14" rx="3" fill="#0E0B1D"/>
+  <rect x="80" y="76" width="88" height="70" fill="#2A1E4D"/>
+  <rect x="92" y="110" width="34" height="30" fill="#8B7CC7"/>
+  <rect x="134" y="110" width="24" height="36" fill="#5A3B8C"/>
+  <circle cx="150" cy="130" r="1.8" fill="#C9C2E3"/>
+  <path d="M66 146 L80 146 L77 160 L69 160 Z" fill="#3A3A52"/>
+  <ellipse cx="66" cy="134" rx="7" ry="11" fill="#5A3B8C" transform="rotate(-30 66 134)"/>
+  <ellipse cx="78" cy="132" rx="6" ry="10" fill="#8B7CC7" transform="rotate(25 78 132)"/>
+  <rect x="208" y="120" width="10" height="36" fill="#3A3A52"/>
+  <rect x="222" y="104" width="10" height="52" fill="#5A3B8C"/>
+  <rect x="236" y="90" width="10" height="66" fill="#3A3A52"/>
+  <polyline points="206,96 232,74 246,82 276,44" fill="none" stroke="#5A3B8C" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+  <polygon points="270,36 286,40 280,56" fill="#5A3B8C"/>
+  <circle cx="262" cy="136" r="28" fill="none" stroke="#3A3A52" stroke-width="12" stroke-dasharray="7 6.5"/>
+  <circle cx="262" cy="136" r="24" fill="#3A3A52"/>
+  <circle cx="262" cy="136" r="16" fill="#C9C2E3"/>
+  <polyline points="255,137 260,142 270,131" fill="none" stroke="#5A3B8C" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
