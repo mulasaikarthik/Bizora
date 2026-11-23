@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
 
 # BIZORA
@@ -172,3 +173,6 @@ Created as a project for the **Codebenders ACE Builders Hackathon 2026**.
 Made by **Team DuoNex** · Sai Karthik & Priya Varshini
 
 </div>
+=======
+
+>>>>>>> ab0bbbf69d55e1d82bda0fe218008ab8c2d8cdce
