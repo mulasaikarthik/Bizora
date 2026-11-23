@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <div align="center">
 
 # BIZORA
@@ -160,9 +160,8 @@ Created as a project for the **Codebenders ACE Builders Hackathon 2026**.
 
 ## Links
 
-- **Live application:** [Bizora](YOUR_BIZORA_LIVE_URL)
-- **GitHub:** [Sai Karthik](https://github.com/mulasaikarthik)
-- **LinkedIn:** [Sai Karthik](YOUR_SAI_KARTHIK_LINKEDIN_URL) · [Priya Varshini](YOUR_PRIYA_VARSHINI_LINKEDIN_URL)
+- **Live application:** [Bizora](https://bizora-blue.vercel.app/)
+- **LinkedIn:** https://lnkd.in/p/g9wBgGnV
 
 ---
 
